@@ -15,15 +15,27 @@ body {
 }
 #top {
     overflow: hidden;
+	height:112px;
+}
+
+.home_button{
+	background-image:url(../images/C2Logo.png);
+	background-size:100px 100px;
+	background-repeat:no-repeat;
+	background-position:center;
+	color:transparent;
+	width:20%;
 }
 #hero img {
 	max-width: 100%;
 }
-#logo {
-	background-color: #000;
+
+
+#slideshow {
+	background-color: #0F9;
+	height: 200px;
 	margin: 0px;
-	padding: 0px;
-	text-align: center;
+	margin-top: 20px;
 }
 
 h1, h2 {
@@ -98,7 +110,10 @@ footer {
 a {
 	font-weight: bold;
 	text-decoration: none;
+	height: 100px;
 }
+
+
 #mainnav a {
 	text-transform: uppercase;
 	color: #FFFFFF;
